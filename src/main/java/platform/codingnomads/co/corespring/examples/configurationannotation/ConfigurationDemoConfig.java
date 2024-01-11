@@ -12,4 +12,7 @@ public class ConfigurationDemoConfig {
     public SampleClass sampleClass() {
         return new SampleClass();
     }
+
+    @Bean
+    public JellyBean jellyBean() { return new JellyBean(); }
 }
