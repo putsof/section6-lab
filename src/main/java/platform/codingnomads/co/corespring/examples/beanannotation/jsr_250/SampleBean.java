@@ -19,4 +19,10 @@ public class SampleBean {
         System.out.println("time to @PreDestroy and head home..");
     }
 
+    @PostConstruct
+    public void sayHello() { System.out.println("I am also ready to doing something after creation");}
+
+    @PreDestroy
+    public void sayBey() { System.out.println("Now we are ready to say goodbye");}
+
 }
